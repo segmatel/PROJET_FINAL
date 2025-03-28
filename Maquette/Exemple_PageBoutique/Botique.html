@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notre Boutique</title>
+    <link rel="stylesheet" href="Boutique.css">
+</head>
+<body>
+
+    <!-- En-tête -->
+    <header>
+        <div class="logo">MaBoutique</div>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Produits</a></li>
+                <li><a href="#">À propos</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="options">
+            <a href="#" class="panier">Panier (0)</a>
+            <a href="#" class="connexion">Se connecter</a>
+        </div>
+    </header>
+
+    <!-- Section Introduction -->
+    <section class="introduction">
+        <h1>Notre Boutique</h1>
+        <p>Explorez nos produits frais et de qualité. Sélectionnez vos produits préférés et faites vos achats en toute simplicité.</p>
+    </section>
+
+    <!-- Section Filtres -->
+    <section class="filtres">
+        <h2>Filtres</h2>
+        <div class="categories">
+            <button>Produits Laitiers</button>
+            <button>Œufs</button>
+            <button>Légumes & Fruits</button>
+        </div>
+        <div class="prix">
+            <label for="prix-range">Prix :</label>
+            <input type="range" id="prix-range" min="0" max="100" step="5">
+        </div>
+    </section>
+
+    <!-- Liste des Produits -->
+    <section class="produits">
+        <div class="produit">
+            <img src="https://via.placeholder.com/200" alt="Produit 1">
+            <h3>Produit 1</h3>
+            <p>€10.00</p>
+            <button>Ajouter au panier</button>
+        </div>
+        <div class="produit">
+            <img src="https://via.placeholder.com/200" alt="Produit 2">
+            <h3>Produit 2</h3>
+            <p>€12.00</p>
+            <button>Ajouter au panier</button>
+        </div>
+        <div class="produit">
+            <img src="https://via.placeholder.com/200" alt="Produit 3">
+            <h3>Produit 3</h3>
+            <p>€15.00</p>
+            <button>Ajouter au panier</button>
+        </div>
+        <!-- Plus de produits peuvent être ajoutés ici -->
+    </section>
+
+    <!-- Pagination -->
+    <div class="pagination">
+        <a href="#">Précédent</a>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">Suivant</a>
+    </div>
+
+    <!-- Pied de Page -->
+    <footer>
+        <div class="footer-links">
+            <a href="#">À propos</a>
+            <a href="#">Mentions légales</a>
+            <a href="#">Politique de confidentialité</a>
+        </div>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+
+</body>
+</html>

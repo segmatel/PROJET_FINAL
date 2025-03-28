@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carte Membres</title>
+    <style>
+        .carte-membre {
+            display: flex; /* Permet de mettre la photo et le texte côte à côte */
+            margin-bottom: 20px; /* Espace entre les cartes */
+            border: 1px solid #ccc; /* Bordure autour de chaque carte */
+            padding: 10px; /* Espace intérieur de la carte */
+            border-radius: 8px; /* Coins arrondis */
+        }
+        .photo {
+            width: 50px; /* Taille de la photo */
+            height: 50px;
+            background-color: #ddd; /* Couleur de fond pour la photo (si pas d'image) */
+            border-radius: 50%; /* Forme ronde */
+            margin-right: 15px; /* Espace entre la photo et le texte */
+        }
+        .info {
+            display: flex;
+            flex-direction: column; /* Met les informations (nom et rôle) les unes sous les autres */
+        }
+        .nom {
+            font-weight: bold; /* Met le nom en gras */
+        }
+        .role {
+            font-style: italic; /* Met le rôle en italique */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="carte-membre">
+        <div class="photo"><img src="Logo 2.jpg" alt=""></div>
+        <div class="info">
+            <p class="nom">Nom du Membre 1</p>
+            <p class="role">Rôle du Membre 1</p>
+        </div>
+    </div>
+
+    <div class="carte-membre">
+        <div class="photo"></div>
+        <div class="info">
+            <p class="nom">Nom du Membre 2</p>
+            <p class="role">Rôle du Membre 2</p>
+        </div>
+    </div>
+
+</body>
+</html>

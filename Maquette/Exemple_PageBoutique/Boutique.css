@@ -1,0 +1,154 @@
+/* Style de base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corps de la page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* En-tête */
+header {
+  background-color: #fff;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header .menu ul {
+  display: flex;
+  gap: 20px;
+}
+
+header .menu ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+header .options a {
+  text-decoration: none;
+  color: #333;
+  margin-left: 20px;
+}
+
+/* Section Introduction */
+.introduction {
+  padding: 30px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.introduction h1 {
+  font-size: 32px;
+}
+
+.introduction p {
+  font-size: 16px;
+}
+
+/* Section Filtres */
+.filtres {
+  padding: 30px;
+  background-color: #fff;
+}
+
+.filtres h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.filtres .categories button,
+.filtres .prix input {
+  margin-right: 10px;
+}
+
+/* Liste des Produits */
+.produits {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 30px;
+}
+
+.produit {
+  background-color: #fff;
+  padding: 15px;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.produit img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.produit h3 {
+  margin: 15px 0;
+  font-size: 18px;
+}
+
+.produit p {
+  font-size: 16px;
+  color: #666;
+}
+
+.produit button {
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.produit button:hover {
+  background-color: #45a049;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.pagination a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 5px;
+  font-size: 16px;
+}
+
+/* Pied de Page */
+footer {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+footer .footer-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+footer .social-media a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
