@@ -1,0 +1,12 @@
+# Ignorer la corbeille Windows
+$RECYCLE.BIN/
+
+# Ignorer les fichiers temporaires
+*.tmp
+*.log
+
+# Ignorer les dossiers spécifiques
+node_modules/
+.vscode/
+bootstrap-5.3.3-dist/
+Roboto_Flex/
